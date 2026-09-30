@@ -3,7 +3,7 @@ import StateCard from './StateCard'
 import {useState} from 'react'
 
 const Dashboard = () => {
-  const [taskCount, setTaskCount] = useState(25);
+  const [taskCount, setTaskCount] = useState(20);
   const [completedTasks, setCompletedTasks] = useState(15);
   const handleAddTask = () => {
     setTaskCount(taskCount + 1);
